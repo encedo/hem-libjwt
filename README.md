@@ -16,7 +16,7 @@ repository makes them available as required by MPL-2.0 section 3.2(a).
 | `include/jwt.h` | modified |
 | `libjwt/jwt.c` | modified |
 | `libjwt/jwt-private.h` | modified |
-| `libjwt/jwt-wolfssl.c` | wolfSSL (wolfCrypt) backend, not part of upstream 1.11.0 |
+| `wolfssl/jwt-wolfssl.c` | wolfSSL (wolfCrypt) backend, not part of upstream 1.11.0 |
 
 Modifications: Copyright (c) 2019-2026 Krzysztof Rutecki, under the Mozilla Public License 2.0.
 
@@ -25,4 +25,4 @@ separate work (a "Larger Work", MPL-2.0 section 3.3) and is not covered by this 
 
 ## Firmware versions
 
-The content matches Encedo HEM firmware 1.3.x.
+The paths match `src/3rd/libjwt/` of the firmware source tree. Each firmware release that ships these files is tagged here as `fw-<version>`.
